@@ -4,6 +4,8 @@ public class OlaMundo {
         minhaFuncaoNaoRetornaNada();
         System.out.println(minhaFuncaoRetornaInteiro());
 
+        System.out.println("Texto Retornado da Função" + minhaFuncaRetornaRecebeString("valor passado"));
+
 
     }
     static void minhaFuncaoNaoRetornaNada(){
