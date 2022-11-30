@@ -30,7 +30,7 @@ public class FluxoDeControle {
 
             }
 
-            if(ehVerdade || x == 6 && ehVerdade != false){
+            if((ehVerdade || x == 6) && ehVerdade != false){
 
             }
 
