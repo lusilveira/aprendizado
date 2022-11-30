@@ -26,7 +26,7 @@ public class FluxoDeControle {
                     ehVerdade = false;
                 }
 
-               x = x + 1;
+               x++;
 
             }
 
