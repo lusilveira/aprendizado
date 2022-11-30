@@ -14,6 +14,13 @@ public class FluxoDeControle {
                 }else{
                     System.out.println("Não eh verdade");
                 }
+
+                ehVerdade = true;
+
+            while (ehVerdade){
+                System.out.println("Imprime");
+            }
+
     }
 
 }
