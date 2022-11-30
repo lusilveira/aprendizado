@@ -16,9 +16,18 @@ public class FluxoDeControle {
                 }
 
                 ehVerdade = true;
+                int x = 0;
 
             while (ehVerdade){
                 System.out.println("Imprime");
+
+
+                if(x == 5){
+                    ehVerdade = false;
+                }
+
+               x = x + 1;
+
             }
 
     }
