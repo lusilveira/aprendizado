@@ -1,5 +1,6 @@
 package org.example;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -27,5 +28,9 @@ public class TestLogin {
             }
 
         }
+
+        String urlPostLoginComSucesso = driver.getCurrentUrl();
+
+        Assertions.assertEquals("http://www.blazedemo.com/home", urlPostLoginComSucesso);
     }
 }
