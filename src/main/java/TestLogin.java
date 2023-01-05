@@ -13,7 +13,7 @@ public class TestLogin {
 
         WebElement textoEmail = driver.findElement(By.id("email"));
         textoEmail.sendKeys("lucianasilveir@gmail.com" );
-        WebElement textoSenha = driver.findElement(By.id("passowird"));
+        WebElement textoSenha = driver.findElement(By.id("password"));
         textoSenha.sendKeys("NSbnpGccSNtjB2G");
         driver.findElement(By.tagName("button"));
         List<WebElement> listaBotoes = driver.findElements(By.tagName("button"));
