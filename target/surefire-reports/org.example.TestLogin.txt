@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.example.TestLogin
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.971 s <<< FAILURE! - in org.example.TestLogin
+testLogin  Time elapsed: 3.959 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <http://www.blazedemo.com/home> but was: <https://www.blazedemo.com/login>
+	at org.example.TestLogin.testLogin(TestLogin.java:34)
+
