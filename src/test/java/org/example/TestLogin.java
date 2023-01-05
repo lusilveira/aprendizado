@@ -1,12 +1,15 @@
+package org.example;
+
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
-
 public class TestLogin {
-    public static void main(String[] args){
+    @Test
+    public void testLogin(){
         System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.navigate().to("http://www.blazedemo.com/login");
