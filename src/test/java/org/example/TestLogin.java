@@ -22,7 +22,7 @@ public class TestLogin {
         List<WebElement> listaBotoes = driver.findElements(By.tagName("button"));
 
         for(WebElement botao : listaBotoes) {
-            if (botao.getAttribute("type").equals("sumit")) {
+            if (botao.getAttribute("type").equals("submit")) {
                 botao.submit();
             }
 
